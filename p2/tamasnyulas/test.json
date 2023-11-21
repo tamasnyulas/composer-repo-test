@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "tamasnyulas/test": [
+            {
+                "name": "tamasnyulas/test",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tamasnyulas/test.git",
+                    "reference": "ac719d505834d4a9e369d4434a9bf7b5db5e6f88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tamasnyulas/test/zipball/ac719d505834d4a9e369d4434a9bf7b5db5e6f88",
+                    "reference": "ac719d505834d4a9e369d4434a9bf7b5db5e6f88",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1.0"
+                },
+                "time": "2023-10-25T13:03:34+00:00",
+                "type": "library",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Testing",
+                "support": {
+                    "source": "https://github.com/tamasnyulas/test/tree/0.2",
+                    "issues": "https://github.com/tamasnyulas/test/issues"
+                }
+            },
+            {
+                "name": "tamasnyulas/test",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tamasnyulas/test.git",
+                    "reference": "ac719d505834d4a9e369d4434a9bf7b5db5e6f88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tamasnyulas/test/zipball/ac719d505834d4a9e369d4434a9bf7b5db5e6f88",
+                    "reference": "ac719d505834d4a9e369d4434a9bf7b5db5e6f88",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1.0"
+                },
+                "time": "2023-10-25T13:03:34+00:00",
+                "type": "library",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Testing",
+                "support": {
+                    "source": "https://github.com/tamasnyulas/test/tree/0.2",
+                    "issues": "https://github.com/tamasnyulas/test/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$652b05702cdd6eabfd83417c8d74e3c4c63e7687.json": {
+            "sha1": "652b05702cdd6eabfd83417c8d74e3c4c63e7687"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "tamasnyulas/test"
+    ]
+}
