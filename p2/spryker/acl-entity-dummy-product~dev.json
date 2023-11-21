@@ -1,0 +1,813 @@
+{
+    "packages": {
+        "spryker/acl-entity-dummy-product": [
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "a1c509af781255f3b5c1bc791b83a31b0358a717"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/a1c509af781255f3b5c1bc791b83a31b0358a717",
+                    "reference": "a1c509af781255f3b5c1bc791b83a31b0358a717",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/76c1f853066df33e9a3e8964870790955a703f79",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/76c1f853066df33e9a3e8964870790955a703f79",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "35987a842b23176a3ca2ee845e3079f94d3c0811"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/35987a842b23176a3ca2ee845e3079f94d3c0811",
+                    "reference": "35987a842b23176a3ca2ee845e3079f94d3c0811",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-03-01T16:52:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "35987a842b23176a3ca2ee845e3079f94d3c0811"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/35987a842b23176a3ca2ee845e3079f94d3c0811",
+                    "reference": "35987a842b23176a3ca2ee845e3079f94d3c0811",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-03-01T16:52:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/76c1f853066df33e9a3e8964870790955a703f79",
+                    "reference": "76c1f853066df33e9a3e8964870790955a703f79",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "6200cf14a0e4637aef106c849ef242b919e4c088"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/6200cf14a0e4637aef106c849ef242b919e4c088",
+                    "reference": "6200cf14a0e4637aef106c849ef242b919e4c088",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-10T09:15:08+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "6200cf14a0e4637aef106c849ef242b919e4c088"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/6200cf14a0e4637aef106c849ef242b919e4c088",
+                    "reference": "6200cf14a0e4637aef106c849ef242b919e4c088",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-10T09:15:08+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "reference": "257fce67a0cb7ebe32971c7d2df5dbebd39e14b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-dummy-product",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-dummy-product.git",
+                    "reference": "03bb9061cfa6f0c752f6d53e7da9ccc89339e6a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-dummy-product/zipball/03bb9061cfa6f0c752f6d53e7da9ccc89339e6a8",
+                    "reference": "03bb9061cfa6f0c752f6d53e7da9ccc89339e6a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDummyProduct module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-dummy-product/tree/master"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "packages": {
+        "spryker/acl-merchant-portal-extension": [
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "b7a8af2fb7eae22d6d77c9ed0cdfa31f7c632a2d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/b7a8af2fb7eae22d6d77c9ed0cdfa31f7c632a2d",
+                    "reference": "b7a8af2fb7eae22d6d77c9ed0cdfa31f7c632a2d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/1.0.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/1.0.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/1.0.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/1.0.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "953575ca3547666b7c6403b6acab288da00b5750"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/953575ca3547666b7c6403b6acab288da00b5750",
+                    "reference": "953575ca3547666b7c6403b6acab288da00b5750",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/master"
+                }
+            }
+        ]
+    }
+}

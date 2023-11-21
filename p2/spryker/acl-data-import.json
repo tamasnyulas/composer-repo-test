@@ -1,0 +1,124 @@
+{
+    "packages": {
+        "spryker/acl-data-import": [
+            {
+                "name": "spryker/acl-data-import",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-data-import.git",
+                    "reference": "510df959f53b1f2afdbbe308fe89a0b7091ac3ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-data-import/zipball/510df959f53b1f2afdbbe308fe89a0b7091ac3ee",
+                    "reference": "510df959f53b1f2afdbbe308fe89a0b7091ac3ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-07-30T05:04:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-data-import/tree/0.1.0"
+                }
+            },
+            {
+                "name": "spryker/acl-data-import",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-data-import.git",
+                    "reference": "d02a6e7674f4c2a89a2dcaa4954b345b406d72c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-data-import/zipball/d02a6e7674f4c2a89a2dcaa4954b345b406d72c7",
+                    "reference": "d02a6e7674f4c2a89a2dcaa4954b345b406d72c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-03-31T19:36:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-data-import/tree/0.1.1"
+                }
+            }
+        ]
+    }
+}

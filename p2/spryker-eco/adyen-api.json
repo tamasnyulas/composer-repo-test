@@ -1,0 +1,124 @@
+{
+    "packages": {
+        "spryker-eco/adyen-api": [
+            {
+                "name": "spryker-eco/adyen-api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen-api.git",
+                    "reference": "1e9566e799834befa8fe7ec41f1269c1c13d17a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen-api/zipball/1e9566e799834befa8fe7ec41f1269c1c13d17a6",
+                    "reference": "1e9566e799834befa8fe7ec41f1269c1c13d17a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "spryker/guzzle": "^2.2.0",
+                    "spryker/kernel": "^3.0.0",
+                    "spryker/log": "^3.0.0",
+                    "spryker/util-encoding": "^2.0.0"
+                },
+                "require-dev": {
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2018-11-15T08:46:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen Api Module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen-api/tree/1.0.0"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen-api",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen-api.git",
+                    "reference": "3e66888122c7334f962e943dad971b14775af17d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen-api/zipball/3e66888122c7334f962e943dad971b14775af17d",
+                    "reference": "3e66888122c7334f962e943dad971b14775af17d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "psr/http-message": "^1.0.0",
+                    "spryker/guzzle": "^2.2.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/util-encoding": "^2.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.12.99",
+                    "spryker/code-sniffer": "^0.16.4",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-10-13T12:21:53+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "stan": [
+                        "phpstan analyse -c phpstan.neon -l 8 src/"
+                    ],
+                    "stan-setup": [
+                        "cp composer.json composer.backup && COMPOSER_MEMORY_LIMIT=-1 composer require --dev phpstan/phpstan:^0.12 && mv composer.backup composer.json"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AdyenApi module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen-api/tree/1.1.0"
+                }
+            }
+        ]
+    }
+}

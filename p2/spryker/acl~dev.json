@@ -1,0 +1,1348 @@
+{
+    "packages": {
+        "spryker/acl": [
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "47388eb7555261ca2bad5a2602c704d63c7529da"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/47388eb7555261ca2bad5a2602c704d63c7529da",
+                    "reference": "47388eb7555261ca2bad5a2602c704d63c7529da",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-05-05T18:20:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-05-05T18:20:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "05014aa9de05a946f8e809c5efe063efc6b39485"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/05014aa9de05a946f8e809c5efe063efc6b39485",
+                    "reference": "05014aa9de05a946f8e809c5efe063efc6b39485",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "05014aa9de05a946f8e809c5efe063efc6b39485"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/05014aa9de05a946f8e809c5efe063efc6b39485",
+                    "reference": "05014aa9de05a946f8e809c5efe063efc6b39485",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "e1ff3e4ea10723e73cbb4603f759cc35bcd300cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/e1ff3e4ea10723e73cbb4603f759cc35bcd300cb",
+                    "reference": "e1ff3e4ea10723e73cbb4603f759cc35bcd300cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2022-08-19T15:44:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-05-05T18:20:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "e1ff3e4ea10723e73cbb4603f759cc35bcd300cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/e1ff3e4ea10723e73cbb4603f759cc35bcd300cb",
+                    "reference": "e1ff3e4ea10723e73cbb4603f759cc35bcd300cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2022-08-19T15:44:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "26cad02f213347c44d67355da77c2403a2d50654"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/26cad02f213347c44d67355da77c2403a2d50654",
+                    "reference": "26cad02f213347c44d67355da77c2403a2d50654",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2022-02-09T10:38:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/spryker-mini-api-framework"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "a2c3bafa83ea03bf96671be69afcbc227a4c7a1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/a2c3bafa83ea03bf96671be69afcbc227a4c7a1d",
+                    "reference": "a2c3bafa83ea03bf96671be69afcbc227a4c7a1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "a2c3bafa83ea03bf96671be69afcbc227a4c7a1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/a2c3bafa83ea03bf96671be69afcbc227a4c7a1d",
+                    "reference": "a2c3bafa83ea03bf96671be69afcbc227a4c7a1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-hotfix/mp-4286-fast-marketplace-code-clean",
+                "version_normalized": "dev-hotfix/mp-4286-fast-marketplace-code-clean",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "1c5ed07f2dad8987f376570ca12f4b33a7903010"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/1c5ed07f2dad8987f376570ca12f4b33a7903010",
+                    "reference": "1c5ed07f2dad8987f376570ca12f4b33a7903010",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.8.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2021-02-05T08:49:33+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/3.7.2"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-hotfix/mp-4623-merchant-1-1-2",
+                "version_normalized": "dev-hotfix/mp-4623-merchant-1-1-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "4226f1dfbc379ec43354bb661958b4f30560e2a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/4226f1dfbc379ec43354bb661958b4f30560e2a1",
+                    "reference": "4226f1dfbc379ec43354bb661958b4f30560e2a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "spryker/config": "^3.0.0",
+                    "spryker/gui": "^3.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2019-08-09T11:38:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/hotfix/mp-4623-merchant-1-1-2"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-hotfix/te-7948-session-3-2-5",
+                "version_normalized": "dev-hotfix/te-7948-session-3-2-5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "7813f91a42ed22a674c951619e168315afddd353"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/7813f91a42ed22a674c951619e168315afddd353",
+                    "reference": "7813f91a42ed22a674c951619e168315afddd353",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "spryker/config": "^3.0.0",
+                    "spryker/gui": "^3.0.0",
+                    "spryker/kernel": "^3.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2018-02-08T09:21:55+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/3.0.7"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "reference": "2a74dd5f030864a799a3d3ec33704371e8a43fb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-05-05T18:20:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl.git",
+                    "reference": "0e440cb5627f4db71a904c4f40256ca901430099"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl/zipball/0e440cb5627f4db71a904c4f40256ca901430099",
+                    "reference": "0e440cb5627f4db71a904c4f40256ca901430099",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/config": "^3.0.0",
+                    "spryker/event-dispatcher-extension": "^1.0.0",
+                    "spryker/gui": "^3.33.0",
+                    "spryker/kernel": "^3.52.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/symfony": "^3.5.0",
+                    "spryker/transfer": "^3.27.0",
+                    "spryker/user": "^3.17.0",
+                    "spryker/util-date-time": "^1.0.0",
+                    "spryker/util-text": "^1.1.0",
+                    "spryker/zed-navigation-extension": "^1.1.0"
+                },
+                "require-dev": {
+                    "spryker/application": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/event-dispatcher": "*",
+                    "spryker/form": "*",
+                    "spryker/installer": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/store": "*",
+                    "spryker/testify": "*",
+                    "spryker/twig": "*",
+                    "spryker/validator": "*",
+                    "spryker/zed-navigation": "*"
+                },
+                "suggest": {
+                    "spryker/container": "Add this module when you want to use the Container.",
+                    "spryker/event-dispatcher": "Add this module when you want to use the EVentDispatcher.",
+                    "spryker/installer": "If you want to use Installer plugins.",
+                    "spryker/silex": "If you want to use ServiceProvider."
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\Acl\\Helper\\": "tests/SprykerTest/Zed/Acl/_support/Helper/",
+                        "SprykerTest\\Zed\\Acl\\PageObject\\": "tests/SprykerTest/Zed/Acl/_support/PageObject/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Acl module",
+                "support": {
+                    "source": "https://github.com/spryker/acl/tree/3.18.0"
+                }
+            }
+        ]
+    }
+}

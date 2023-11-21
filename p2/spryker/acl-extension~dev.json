@@ -1,0 +1,693 @@
+{
+    "packages": {
+        "spryker/acl-extension": [
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "c1d3525e14f35cda01d5a6ce4529d55e13816f32"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/c1d3525e14f35cda01d5a6ce4529d55e13816f32",
+                    "reference": "c1d3525e14f35cda01d5a6ce4529d55e13816f32",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/dcd4421228c092427837c434509c07c58ba017f1",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/dcd4421228c092427837c434509c07c58ba017f1",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3",
+                    "reference": "3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2022-03-01T16:52:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3",
+                    "reference": "3d6cc0772c6b0d84b1f04cfb28033a50c4480aa3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2022-03-01T16:52:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/dcd4421228c092427837c434509c07c58ba017f1",
+                    "reference": "dcd4421228c092427837c434509c07c58ba017f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "229a3a3f84e65c7af95080a94b842cddecabbe98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/229a3a3f84e65c7af95080a94b842cddecabbe98",
+                    "reference": "229a3a3f84e65c7af95080a94b842cddecabbe98",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2021-07-30T05:04:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/1.1.0"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "229a3a3f84e65c7af95080a94b842cddecabbe98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/229a3a3f84e65c7af95080a94b842cddecabbe98",
+                    "reference": "229a3a3f84e65c7af95080a94b842cddecabbe98",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2021-07-30T05:04:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/1.1.0"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-hotfix/mp-4286-fast-marketplace-code-clean",
+                "version_normalized": "dev-hotfix/mp-4286-fast-marketplace-code-clean",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "c35eb82ff1ab6443a3f62ef26358d6f7c1a0c348"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/c35eb82ff1ab6443a3f62ef26358d6f7c1a0c348",
+                    "reference": "c35eb82ff1ab6443a3f62ef26358d6f7c1a0c348",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2020-12-22T20:04:50+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/hotfix/mp-4286-fast-marketplace-code-clean"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "reference": "0fe00e1790cdfa062e5051d92b8ffd7406eb7364",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-02-28T15:23:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/beta/app-store/develop"
+                }
+            },
+            {
+                "name": "spryker/acl-extension",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-extension.git",
+                    "reference": "394771c9b760fa8643c91e6ac7b7243e0b54ab3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-extension/zipball/394771c9b760fa8643c91e6ac7b7243e0b54ab3e",
+                    "reference": "394771c9b760fa8643c91e6ac7b7243e0b54ab3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-extension/tree/master"
+                }
+            }
+        ]
+    }
+}

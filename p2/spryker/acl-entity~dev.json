@@ -1,0 +1,970 @@
+{
+    "packages": {
+        "spryker/acl-entity": [
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "935ff895cea5687c7aec2bd41bea74a8464385f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/935ff895cea5687c7aec2bd41bea74a8464385f2",
+                    "reference": "935ff895cea5687c7aec2bd41bea74a8464385f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/1.9.0"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/1.9.0"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "7c8ef8554cf230e605051a85685f977727b28e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/7c8ef8554cf230e605051a85685f977727b28e57",
+                    "reference": "7c8ef8554cf230e605051a85685f977727b28e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "7c8ef8554cf230e605051a85685f977727b28e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/7c8ef8554cf230e605051a85685f977727b28e57",
+                    "reference": "7c8ef8554cf230e605051a85685f977727b28e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "ea3e72f803068f82ff61b1e1986c165c9a66b3bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/ea3e72f803068f82ff61b1e1986c165c9a66b3bb",
+                    "reference": "ea3e72f803068f82ff61b1e1986c165c9a66b3bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2022-08-19T15:44:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/1.9.0"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "ea3e72f803068f82ff61b1e1986c165c9a66b3bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/ea3e72f803068f82ff61b1e1986c165c9a66b3bb",
+                    "reference": "ea3e72f803068f82ff61b1e1986c165c9a66b3bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2022-08-19T15:44:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/lazy_table_map_instantiation"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "e81594065e88b8c9fe9d73115433d8ed526c01fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/e81594065e88b8c9fe9d73115433d8ed526c01fb",
+                    "reference": "e81594065e88b8c9fe9d73115433d8ed526c01fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2022-02-09T10:38:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/spryker-mini-api-framework"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "f97c784503ea7f55f228adbd29e8ea428cf218e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/f97c784503ea7f55f228adbd29e8ea428cf218e2",
+                    "reference": "f97c784503ea7f55f228adbd29e8ea428cf218e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "f97c784503ea7f55f228adbd29e8ea428cf218e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/f97c784503ea7f55f228adbd29e8ea428cf218e2",
+                    "reference": "f97c784503ea7f55f228adbd29e8ea428cf218e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "reference": "1de6ff592575dd2f3f18ecf839c25a2ef4bee9cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/1.9.0"
+                }
+            },
+            {
+                "name": "spryker/acl-entity",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity.git",
+                    "reference": "59fbc2936b5d4cfbbc08513bb5b76566b6d3406d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity/zipball/59fbc2936b5d4cfbbc08513bb5b76566b6d3406d",
+                    "reference": "59fbc2936b5d4cfbbc08513bb5b76566b6d3406d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/application-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/price-product-extension": "^1.7.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/user": "^3.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/container": "*",
+                    "spryker/locale": "*",
+                    "spryker/merchant": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker/container": "If you want to use AclEntityApplicationPlugin."
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "name": "acl",
+                    "class": "\\Spryker\\Zed\\AclEntity\\Persistence\\Propel\\Behavior\\AclEntityBehavior"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/",
+                        "SprykerTest\\Zed\\AclEntity\\Helper\\": "tests/SprykerTest/Zed/AclEntity/_support/Helper/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntity module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity/tree/master"
+                }
+            }
+        ]
+    }
+}

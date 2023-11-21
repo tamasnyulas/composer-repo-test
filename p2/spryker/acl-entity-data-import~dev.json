@@ -1,0 +1,832 @@
+{
+    "packages": {
+        "spryker/acl-entity-data-import": [
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "73e50a511a652f94ccf81cf884522414896fcc01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/73e50a511a652f94ccf81cf884522414896fcc01",
+                    "reference": "73e50a511a652f94ccf81cf884522414896fcc01",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-03-31T19:36:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.2"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-03-31T19:36:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.2"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.13.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.13.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c",
+                    "reference": "63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-06-17T12:20:42+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.1"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-03-31T19:36:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.2"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c",
+                    "reference": "63ee6234b21daf59196dbb8e2a71cd4cadd6fc9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-06-17T12:20:42+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.1"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "reference": "fa8c963eac446335966e62ba9ca328223b5151c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.13.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "461eb4daa265fa13acb24cbb3fb6e7ae2807a55a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/461eb4daa265fa13acb24cbb3fb6e7ae2807a55a",
+                    "reference": "461eb4daa265fa13acb24cbb3fb6e7ae2807a55a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.13.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "461eb4daa265fa13acb24cbb3fb6e7ae2807a55a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/461eb4daa265fa13acb24cbb3fb6e7ae2807a55a",
+                    "reference": "461eb4daa265fa13acb24cbb3fb6e7ae2807a55a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.13.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "reference": "4b90e7b287a2e8e64beb7950980271ffbced4e57",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-03-31T19:36:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/0.2.2"
+                }
+            },
+            {
+                "name": "spryker/acl-entity-data-import",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-entity-data-import.git",
+                    "reference": "92392bdf012a6fdf596dc13a1c14b62cd5d8bf03"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-entity-data-import/zipball/92392bdf012a6fdf596dc13a1c14b62cd5d8bf03",
+                    "reference": "92392bdf012a6fdf596dc13a1c14b62cd5d8bf03",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "spryker/acl": "^3.8.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/data-import": "^1.14.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/propel-orm": "^1.16.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/merchant": "*",
+                    "spryker/product": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclEntityDataImport module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-entity-data-import/tree/master"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,994 @@
+{
+    "packages": {
+        "spryker/acl-merchant-portal": [
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/app-kernel",
+                "version_normalized": "dev-beta/app-kernel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "d2ec07301f49ae94e2ee1516021a44be578fd1dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/d2ec07301f49ae94e2ee1516021a44be578fd1dd",
+                    "reference": "d2ec07301f49ae94e2ee1516021a44be578fd1dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-08-21T07:50:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/app-kernel"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/app-store/develop",
+                "version_normalized": "dev-beta/app-store/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/46ec41722db2a9268c27e367090a3b773229c82b",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-05-24T11:26:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.10.1"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/apps-6692-delete-secret",
+                "version_normalized": "dev-beta/apps-6692-delete-secret",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/46ec41722db2a9268c27e367090a3b773229c82b",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-05-24T11:26:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.10.1"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/glue-backend-prototype",
+                "version_normalized": "dev-beta/glue-backend-prototype",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.9.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/glue-backend-prototype-v4",
+                "version_normalized": "dev-beta/glue-backend-prototype-v4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.9.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/lazy_table_map_instantiation",
+                "version_normalized": "dev-beta/lazy_table_map_instantiation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "1d5446ee7c26735c4c88ea0025a1d0aeef47e58d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/1d5446ee7c26735c4c88ea0025a1d0aeef47e58d",
+                    "reference": "1d5446ee7c26735c4c88ea0025a1d0aeef47e58d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "time": "2022-08-16T17:27:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.8.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/localstack-replacement",
+                "version_normalized": "dev-beta/localstack-replacement",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "492e339450bd80fe15b25b2bd92df8b79012d08c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/492e339450bd80fe15b25b2bd92df8b79012d08c",
+                    "reference": "492e339450bd80fe15b25b2bd92df8b79012d08c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-07-03T12:00:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.11.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/poc-contract-tests",
+                "version_normalized": "dev-beta/poc-contract-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "1d5446ee7c26735c4c88ea0025a1d0aeef47e58d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/1d5446ee7c26735c4c88ea0025a1d0aeef47e58d",
+                    "reference": "1d5446ee7c26735c4c88ea0025a1d0aeef47e58d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "time": "2022-08-16T17:27:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.8.0"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/spryker-mini-api-framework",
+                "version_normalized": "dev-beta/spryker-mini-api-framework",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "reference": "04e759199654fac5b3a2e710f57446a69bbdc1cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker/acl": "^3.9.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "time": "2022-01-26T18:25:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/glue-backend-prototype"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "version_normalized": "dev-beta/te-9873-backend-glue-application-plagin-context",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "0111763058820ffd5a7e2987855d3ba2d9f51a49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/0111763058820ffd5a7e2987855d3ba2d9f51a49",
+                    "reference": "0111763058820ffd5a7e2987855d3ba2d9f51a49",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.9.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/availability": "^9.0.0",
+                    "spryker/category": "^5.0.0",
+                    "spryker/category-image": "^1.0.0",
+                    "spryker/cms-block": "^3.0.0",
+                    "spryker/comment": "^1.0.0",
+                    "spryker/country": "^3.0.0",
+                    "spryker/currency": "^3.0.0",
+                    "spryker/customer": "^7.0.0",
+                    "spryker/event-behavior": "^1.0.0",
+                    "spryker/glossary": "^3.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/locale": "^3.0.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-category": "^1.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-product": "^1.0.0",
+                    "spryker/merchant-profile": "^1.0.0",
+                    "spryker/merchant-sales-order": "^1.0.0",
+                    "spryker/merchant-stock": "^1.0.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.0.0",
+                    "spryker/oms": "^11.0.0",
+                    "spryker/oms-product-offer-reservation": "^1.0.0",
+                    "spryker/payment": "^5.0.0",
+                    "spryker/price-product": "^4.0.0",
+                    "spryker/price-product-offer": "^1.0.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-attribute": "^1.0.0",
+                    "spryker/product-category": "^4.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/product-offer": "^1.0.0",
+                    "spryker/product-offer-stock": "^1.0.0",
+                    "spryker/product-offer-validity": "^1.0.0",
+                    "spryker/product-option": "^8.0.0",
+                    "spryker/product-search": "^5.0.0",
+                    "spryker/product-validity": "^1.0.0",
+                    "spryker/refund": "^5.0.0",
+                    "spryker/sales": "^11.0.0",
+                    "spryker/sales-invoice": "^1.0.0",
+                    "spryker/sales-order-threshold": "^1.0.0",
+                    "spryker/shipment": "^8.0.0",
+                    "spryker/state-machine": "^2.0.0",
+                    "spryker/stock": "^8.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/tax": "^5.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/url": "^3.0.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/user-password-reset": "^1.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-beta/te-9901-extend-glue-application-module",
+                "version_normalized": "dev-beta/te-9901-extend-glue-application-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "0111763058820ffd5a7e2987855d3ba2d9f51a49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/0111763058820ffd5a7e2987855d3ba2d9f51a49",
+                    "reference": "0111763058820ffd5a7e2987855d3ba2d9f51a49",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker/acl": "^3.9.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/availability": "^9.0.0",
+                    "spryker/category": "^5.0.0",
+                    "spryker/category-image": "^1.0.0",
+                    "spryker/cms-block": "^3.0.0",
+                    "spryker/comment": "^1.0.0",
+                    "spryker/country": "^3.0.0",
+                    "spryker/currency": "^3.0.0",
+                    "spryker/customer": "^7.0.0",
+                    "spryker/event-behavior": "^1.0.0",
+                    "spryker/glossary": "^3.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/locale": "^3.0.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-category": "^1.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-product": "^1.0.0",
+                    "spryker/merchant-profile": "^1.0.0",
+                    "spryker/merchant-sales-order": "^1.0.0",
+                    "spryker/merchant-stock": "^1.0.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.0.0",
+                    "spryker/oms": "^11.0.0",
+                    "spryker/oms-product-offer-reservation": "^1.0.0",
+                    "spryker/payment": "^5.0.0",
+                    "spryker/price-product": "^4.0.0",
+                    "spryker/price-product-offer": "^1.0.0",
+                    "spryker/product": "^6.0.0",
+                    "spryker/product-attribute": "^1.0.0",
+                    "spryker/product-category": "^4.0.0",
+                    "spryker/product-image": "^3.0.0",
+                    "spryker/product-offer": "^1.0.0",
+                    "spryker/product-offer-stock": "^1.0.0",
+                    "spryker/product-offer-validity": "^1.0.0",
+                    "spryker/product-option": "^8.0.0",
+                    "spryker/product-search": "^5.0.0",
+                    "spryker/product-validity": "^1.0.0",
+                    "spryker/refund": "^5.0.0",
+                    "spryker/sales": "^11.0.0",
+                    "spryker/sales-invoice": "^1.0.0",
+                    "spryker/sales-order-threshold": "^1.0.0",
+                    "spryker/shipment": "^8.0.0",
+                    "spryker/state-machine": "^2.0.0",
+                    "spryker/stock": "^8.0.0",
+                    "spryker/store": "^1.0.0",
+                    "spryker/tax": "^5.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/url": "^3.0.0",
+                    "spryker/user": "^3.0.0",
+                    "spryker/user-password-reset": "^1.0.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*"
+                },
+                "time": "2021-09-07T15:12:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/beta/te-9873-backend-glue-application-plagin-context"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-hotfix/testing-propel",
+                "version_normalized": "dev-hotfix/testing-propel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/46ec41722db2a9268c27e367090a3b773229c82b",
+                    "reference": "46ec41722db2a9268c27e367090a3b773229c82b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-05-24T11:26:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/1.10.1"
+                }
+            },
+            {
+                "name": "spryker/acl-merchant-portal",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal.git",
+                    "reference": "45c42bcc0458bacffec4bd57147ba9c599f7a76f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal/zipball/45c42bcc0458bacffec4bd57147ba9c599f7a76f",
+                    "reference": "45c42bcc0458bacffec4bd57147ba9c599f7a76f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "spryker/acl": "^3.12.0",
+                    "spryker/acl-entity": "^1.0.0",
+                    "spryker/acl-entity-extension": "^1.0.0",
+                    "spryker/acl-extension": "^1.1.0",
+                    "spryker/acl-merchant-portal-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/merchant": "^3.0.0",
+                    "spryker/merchant-extension": "^1.1.0",
+                    "spryker/merchant-user": "^1.0.0",
+                    "spryker/merchant-user-extension": "^1.1.0",
+                    "spryker/security-merchant-portal-gui-extension": "^1.0.0",
+                    "spryker/transfer": "^3.25.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*",
+                    "spryker/propel": "*",
+                    "spryker/testify": "*",
+                    "spryker/user": "*"
+                },
+                "suggest": {
+                    "spryker/event-behavior": "To be able to use the EventBehavior propel entities for AclEntityMetadataCollection expansion."
+                },
+                "time": "2023-11-02T20:09:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerTest\\": "tests/SprykerTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortal module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal/tree/master"
+                }
+            }
+        ]
+    }
+}

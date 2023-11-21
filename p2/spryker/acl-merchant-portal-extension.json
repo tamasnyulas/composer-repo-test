@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "spryker/acl-merchant-portal-extension": [
+            {
+                "name": "spryker/acl-merchant-portal-extension",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker/acl-merchant-portal-extension.git",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker/acl-merchant-portal-extension/zipball/d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "reference": "d850f2b7a8d94e696f037b62b7e0da0b64e1db62",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "spryker/code-sniffer": "*"
+                },
+                "time": "2023-03-10T14:11:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Spryker\\": "src/Spryker/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "AclMerchantPortalExtension module",
+                "support": {
+                    "source": "https://github.com/spryker/acl-merchant-portal-extension/tree/1.0.0"
+                }
+            }
+        ]
+    }
+}

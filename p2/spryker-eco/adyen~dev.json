@@ -1,0 +1,645 @@
+{
+    "packages": {
+        "spryker-eco/adyen": [
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-bugfix/notification-field-amount-length",
+                "version_normalized": "dev-bugfix/notification-field-amount-length",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "3a7466701124705b98de0097a3e7ee4180d7b6a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/3a7466701124705b98de0097a3e7ee4180d7b6a1",
+                    "reference": "3a7466701124705b98de0097a3e7ee4180d7b6a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^2.0.0 || ^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2020-12-11T10:37:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse -l 6 -c phpstan.neon src/"
+                    ],
+                    "test": [
+                        "codecept run"
+                    ],
+                    "test-coverage": [
+                        "codecept run --coverage-xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/bugfix/notification-field-amount-length"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-bugfix/supesc-162-default-deprecated-config",
+                "version_normalized": "dev-bugfix/supesc-162-default-deprecated-config",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "c0f9571c171831a1bb102d7a097a59fbe9f6f27a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/c0f9571c171831a1bb102d7a097a59fbe9f6f27a",
+                    "reference": "c0f9571c171831a1bb102d7a097a59fbe9f6f27a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2021-11-05T13:52:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "stan": [
+                        "phpstan analyse -c phpstan.neon src/"
+                    ],
+                    "stan-setup": [
+                        "cp composer.json composer.backup && COMPOSER_MEMORY_LIMIT=-1 composer require --dev phpstan/phpstan:^0.12 && mv composer.backup composer.json"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/bugfix/supesc-162-default-deprecated-config"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-bugfix/supesc-280-adyen-sends-information-about-refused-authorization-which-needs-to-be-checked",
+                "version_normalized": "dev-bugfix/supesc-280-adyen-sends-information-about-refused-authorization-which-needs-to-be-checked",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "131edfc57ef95ba768309aae737068cdd49ab35a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/131edfc57ef95ba768309aae737068cdd49ab35a",
+                    "reference": "131edfc57ef95ba768309aae737068cdd49ab35a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2022-09-21T11:07:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "stan": [
+                        "phpstan analyse -c phpstan.neon src/"
+                    ],
+                    "stan-setup": [
+                        "cp composer.json composer.backup && COMPOSER_MEMORY_LIMIT=-1 composer require --dev phpstan/phpstan:^0.12 && mv composer.backup composer.json"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/bugfix/supesc-280-adyen-sends-information-about-refused-authorization-which-needs-to-be-checked"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-bugfix/supesc-287-klarna-doesnt-work-by-default",
+                "version_normalized": "dev-bugfix/supesc-287-klarna-doesnt-work-by-default",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "4a1087184bebdb59c4d1230edfab821afbb36802"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/4a1087184bebdb59c4d1230edfab821afbb36802",
+                    "reference": "4a1087184bebdb59c4d1230edfab821afbb36802",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^2.0.0 || ^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2021-03-26T11:46:48+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse -l 6 -c phpstan.neon src/"
+                    ],
+                    "test": [
+                        "codecept run"
+                    ],
+                    "test-coverage": [
+                        "codecept run --coverage-xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/bugfix/supesc-287-klarna-doesnt-work-by-default"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-bugfix/supesc-299-fix-direct-debit-sub-form",
+                "version_normalized": "dev-bugfix/supesc-299-fix-direct-debit-sub-form",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "d254c51959a41af7d67e1e8b8b3b7c13407a4b71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/d254c51959a41af7d67e1e8b8b3b7c13407a4b71",
+                    "reference": "d254c51959a41af7d67e1e8b8b3b7c13407a4b71",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^2.0.0 || ^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2021-03-15T11:13:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse -l 6 -c phpstan.neon src/"
+                    ],
+                    "test": [
+                        "codecept run"
+                    ],
+                    "test-coverage": [
+                        "codecept run --coverage-xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/bugfix/supesc-299-fix-direct-debit-sub-form"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-feature/adyen-maria-db-compatibility",
+                "version_normalized": "dev-feature/adyen-maria-db-compatibility",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "fb96706b5e5171a047f84fe475eca75da33b0464"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/fb96706b5e5171a047f84fe475eca75da33b0464",
+                    "reference": "fb96706b5e5171a047f84fe475eca75da33b0464",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^2.0.0 || ^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2020-12-09T03:34:23+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse -l 6 -c phpstan.neon src/"
+                    ],
+                    "test": [
+                        "codecept run"
+                    ],
+                    "test-coverage": [
+                        "codecept run --coverage-xml"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/feature/adyen-maria-db-compatibility"
+                }
+            },
+            {
+                "name": "spryker-eco/adyen",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/spryker-eco/adyen.git",
+                    "reference": "26c5f45adad1f48573bf371a862f8f5451de7c81"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/spryker-eco/adyen/zipball/26c5f45adad1f48573bf371a862f8f5451de7c81",
+                    "reference": "26c5f45adad1f48573bf371a862f8f5451de7c81",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.4",
+                    "spryker-eco/adyen-api": "^1.0.0",
+                    "spryker-shop/checkout-page": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                    "spryker/calculation": "^4.0.0",
+                    "spryker/checkout-extension": "^1.0.0",
+                    "spryker/kernel": "^3.30.0",
+                    "spryker/oms": "^7.0.0 || ^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/propel-orm": "^1.0.0",
+                    "spryker/quote": "^2.0.0",
+                    "spryker/sales": "^8.0.0 || ^10.0.0 || ^11.0.0",
+                    "spryker/step-engine": "^3.0.0",
+                    "spryker/symfony": "^3.0.0",
+                    "spryker/transfer": "^3.25.0",
+                    "spryker/util-encoding": "^2.0.0",
+                    "spryker/util-text": "^1.0.0",
+                    "spryker/zed-request": "^3.0.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "*",
+                    "spryker-shop/shop-application": "*",
+                    "spryker/checkout": "*",
+                    "spryker/code-sniffer": "*",
+                    "spryker/payment": "*",
+                    "spryker/propel": "*",
+                    "spryker/router": "*",
+                    "spryker/silex": "*",
+                    "spryker/testify": "*"
+                },
+                "suggest": {
+                    "spryker-shop/shop-application": "Abstract Yves controller provider is used.",
+                    "spryker/checkout": "CheckoutPostSaveHookInterface is used.",
+                    "spryker/payment": "If you want to use payment method filtering.",
+                    "spryker/router": "Abstract router provider is used.",
+                    "spryker/silex": "Silex application is used."
+                },
+                "time": "2022-06-16T17:35:15+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SprykerEco\\": "src/SprykerEco/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SprykerEcoTest\\": "tests/SprykerEcoTest/"
+                    }
+                },
+                "scripts": {
+                    "cs-check": [
+                        "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "cs-fix": [
+                        "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/"
+                    ],
+                    "stan": [
+                        "phpstan analyse -c phpstan.neon src/"
+                    ],
+                    "stan-setup": [
+                        "cp composer.json composer.backup && COMPOSER_MEMORY_LIMIT=-1 composer require --dev phpstan/phpstan:^0.12 && mv composer.backup composer.json"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Adyen module",
+                "support": {
+                    "source": "https://github.com/spryker-eco/adyen/tree/1.12.0"
+                }
+            }
+        ]
+    }
+}
