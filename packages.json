@@ -1,12 +1,23 @@
 {
     "packages": [],
     "includes": {
-        "include/all$652b05702cdd6eabfd83417c8d74e3c4c63e7687.json": {
-            "sha1": "652b05702cdd6eabfd83417c8d74e3c4c63e7687"
+        "include/all$3a025f172502711ac85ddb9ed8f0b4a4d8234b89.json": {
+            "sha1": "3a025f172502711ac85ddb9ed8f0b4a4d8234b89"
         }
     },
     "metadata-url": "/composer-repo-test/p2/%package%.json",
     "available-packages": [
+        "spryker-eco/adyen",
+        "spryker-eco/adyen-api",
+        "spryker/acl",
+        "spryker/acl-data-import",
+        "spryker/acl-entity",
+        "spryker/acl-entity-data-import",
+        "spryker/acl-entity-dummy-product",
+        "spryker/acl-entity-extension",
+        "spryker/acl-extension",
+        "spryker/acl-merchant-portal",
+        "spryker/acl-merchant-portal-extension",
         "tamasnyulas/test"
     ]
 }
